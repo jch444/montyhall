@@ -1,0 +1,19 @@
+Package: montyhall
+Title: This package plays the game inspired by "Deal or No Deal"
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jordan",
+           family = "Christian",
+           role = c("aut", "cre"),
+           email = "jordan.christian@asu.edu",
+           comment = c(ORCID = "0009-0002-9389-9790"))
+Description: This package is dubbed montyhall from inspiration of the game deal or no deal
+ The game begins with 3 doors; 2 of which have a goat and 1 of which has a car. The contestant selects
+ a door as does the host. The contestant then chooses to keep or switch their door. Once decided, the game
+ is ran and the results are revealed, indicating the results from whether the contestant stayed or switch.
+Depends:
+    dplyr
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
